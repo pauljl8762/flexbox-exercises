@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+#em {
+    font-size: 2em;
+}
+#rem {
+    font-size: 2em;
+}
+html {
+    font-size: 16px;
+}
+div{
+width: 25%;
+height: 100px;
+}
+@media screen and (min-width: 0px) and (max-width: 400px;){
+    body {background-color: blue;}
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px;){
+    body {background-color: red;}
+}
+@media screen and (min-width: 600px) {
+    body {background-color: green;}
+}
