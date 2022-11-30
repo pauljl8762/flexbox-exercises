@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+#em {
+    font-size: 2em;
+}
+#rem {
+    font-size: 2em;
+}
+html {
+    font-size: 16px;
+}
+div{
+width: 25%;
+height: 100px;
+}
+/*extra small devices(phones etc)*/
+@media screen and (max-width: 600px;){
+    body {background-color: blue;}
+}
+/*medium devices (bigger tablets etc)*/
+@media screen and (max-width: 768px;){
+    body {background-color: red;}
+}
+/*large devices (laptops/desktops etc)*/
+@media screen and (max-width: 992px) {
+    body {background-color: green;}
+}
+/*extra large devices (larger laptops/desktops etc)*/
+@media screen and (max-width: 1200px) {
+    body {background-color: blueviolet;}
+}
